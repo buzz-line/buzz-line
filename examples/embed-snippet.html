@@ -1,0 +1,20 @@
+<!-- Place in your app layout where authenticated users can access support -->
+<script>
+  window.LiveChatConfig = {
+    server: 'https://chat.example.com',
+    color: '#105ec8',
+    title: 'Support chat',
+    subtitle: 'Replies usually within minutes',
+    supportEmail: 'support@example.com',
+    launcherName: 'Support Team',
+    launcherRole: 'Live chat',
+    launcherStatus: 'Online',
+    launcherStatusState: 'online',
+    launcherCta: 'Chat now'
+  };
+</script>
+<script
+  src="https://chat.example.com/widget/widget.js"
+  data-site="app.example.com"
+  data-auth-endpoint="/api/widget-token"
+></script>
